@@ -1,0 +1,139 @@
+.bg{
+    height: 36.5rem;
+    background: round;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/Homepage_Desktop.webp);  
+}
+.navbar-expand-lg{
+    position: fixed;
+}
+.nav-link{
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.nav-link:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+.ms-auto{
+    margin: 10px;
+}
+.a{
+    margin-left: -173px;
+    padding: 22px;
+    color: rgb(255 255 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600
+
+}
+.bg2{
+    height: 36.5rem;
+    background: round;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/Homepage_Desktop\ \(1\).webp);
+}
+.bg3{
+    height: 36.5rem;
+    background: round;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/S20_Chopstick_Stack_Desktop.webp);
+}
+.bg4{
+    height: 36.5rem;
+    background: round;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/hls-resized-2.webp);
+}
+.btn{
+    border: 0ch;
+    background: transparent;
+    color: #fff;
+}
+.a:hover{
+    color: #fff;
+}
+.btn:hover{
+    background-color: transparent;
+}
+.shopDiv a{
+    margin: -17px;
+    margin-top: -10px;
+}
+.hr {
+    height: 2px;   
+}
+.top-55{
+    top: 55%;
+}
+.z_index{
+    z-index: 1000;
+}
+@media only screen and (min-width: 990px) {
+    nav {
+      font-size: small;
+    }
+    .offcanvas_top{
+        display: none;
+    }
+  }
+.slied{
+font-size: 15px; 
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500; 
+}
+.btn-primary:hover{
+--bs-btn-hover-bg: transparent;
+--bs-btn-active-bg: transparent;
+}
+.watch-btn{
+border:  2px solid white;
+background-color: transparent;
+width: 130px;
+height: 50px;
+color: #fff;
+margin-top: 18px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.watch-btn:hover{
+    background-color: #fff;
+    color: black;
+    visibility: inherit;
+  transition: inherit;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;   
+}
+.footer a{
+    font-size: 12px;
+    font-weight: bold;
+}
+
